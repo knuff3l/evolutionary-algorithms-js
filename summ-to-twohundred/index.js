@@ -160,9 +160,11 @@ function tryFullRandom() {
 }
 
 // console.log("Finding averages over " + AVG_ITERATIONS + " iterations");
-tryIt(0.02, 0.05, 0.01);
-tryIt(0.15, 0.05, 0.01);
-tryIt(0.02, 0.25, 0.01);
-tryIt(0.02, 0.05, 0.25);
-tryFullRandom();
+// tryIt(0.02, 0.05, 0.01);
+// tryIt(0.15, 0.05, 0.01);
+// tryIt(0.02, 0.25, 0.01);
+// tryIt(0.02, 0.05, 0.25);
+// tryFullRandom();
 
+var sol = findSolution();
+console.log("Found solution in "+ sol.generations + " generations.", sol.solution);
