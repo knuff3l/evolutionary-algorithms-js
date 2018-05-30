@@ -168,3 +168,6 @@ function tryFullRandom() {
 
 var sol = findSolution();
 console.log("Found solution in "+ sol.generations + " generations.", sol.solution);
+var sum = sol.solution.reduce((a,b) => a + b, 0);
+console.log("Summe: ",sum);
+
